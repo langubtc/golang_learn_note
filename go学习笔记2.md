@@ -48,6 +48,21 @@ func main(){
 }
 ```
 
+使用var 声明后直接赋予值 ``var name = roddy``
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var myName = "roddy" //声明一个变量myName 值是"roddy"，golang会根据值自动声明变量的类型
+	fmt.Println(myName)
+}
+
+```
+
+
+
 ### 定义多个变量
 
 var 后面加()定义，在()中声明多个变量
