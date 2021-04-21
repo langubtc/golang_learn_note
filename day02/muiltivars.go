@@ -11,4 +11,6 @@ func main() {
 	cname := name
 	fmt.Println(name, cname)
 
+	c, d := 4, 5
+	fmt.Println(c, d, c+d)
 }

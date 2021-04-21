@@ -3,6 +3,32 @@ go学习笔记3
 
 ### 多个变量赋值
 多个变量赋值，多重赋值时，变量的左值和右值按从左到右的顺序赋值。
+
+``a,b := 1,2``
+
+复制多个变量还可以使用``var ()``来定义
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var a, b int = 1, 2
+	fmt.Println(a, b)
+
+	var name string = "roddy"
+
+	cname := name
+	fmt.Println(name, cname)
+
+
+	c,d := 4,5
+	fmt.Println(c,d,c+d)
+}
+```
+
+可以使用:= 定义，也可以直接在var初始化的时候定义
 ```go
 package main
 
