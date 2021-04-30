@@ -51,7 +51,7 @@ float64	1.8e308	math.MaxFloat64
 ```go
 fmt.Printf("%.2f\n",SecondFloat)
 ```
- 
+
 
 ### 总结
 
